@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project-exchange-rate"
+version = "0.1.0"
+description = ""
+authors = ["AlexandraAvtaykina <justalexandra@mail.ru>"]
+readme = "README.md"
+packages = [{include = "project_exchange_rate"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.3.0"
+django = "^5.0.4"
+python-dotenv = "^1.0.1"
+requests = "^2.31.0"
+ipython = "^8.23.0"
+django-crontab = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
